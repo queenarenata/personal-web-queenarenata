@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="contact.js"></script>
+
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <div class="left-side">
+                 <img src="./dumbways.png" />
+                <ul>
+                     <li>
+                         <a href="./index.html"class="list-active">Home</a>
+                    </li>
+                     <li>
+                         <a href="./blog.html">Blog</a>
+                     </li>
+                </ul>
+            </div>
+             <div class="right-side">
+                 <a href="./contact.html">Contact Me</a>
+             </div>
+         </nav>
+    </div> 
+
+    <div class="form">
+        <center>
+            <div style="width: 280px; height: 90vh; display: flex; justify-content: center; align-items: center;">
+               <form>
+                   <div style="margin-bottom: 15px; text-align: left;">
+                       <label for="input-name">Name</label> 
+                       <input 
+                           id="input-name" 
+                           style="width: 100%; padding: 10px; margin-top: 7px; background-color:gainsboro; border-radius: 10px; box-shadow: 3px 3px 3px black;"
+                       />
+                   </div>
+   
+                   <div style="margin-bottom: 15px; text-align: left;">
+                       <label for="input-email">Email</label>
+                       <input 
+                           id="input-email" 
+                           style="width: 100%; padding: 10px; margin-top: 7px; background-color: gainsboro; border-radius: 10px; box-shadow: 3px 3px 3px black;" />
+                   </div>
+   
+                   <div style="margin-bottom: 15px; text-align: left;">
+                       <label for="input-PhoneNumber">PhoneNumber</label>
+                       <input 
+                           id="input-PhoneNumber"
+                           style="width: 100%; padding: 10px; margin-top: 7px; background-color: gainsboro; border-radius: 10px; box-shadow: 3px 3px 3px black;"/>
+                   </div>
+   
+                   <div style="margin-bottom: 15px; text-align: left;">
+                       <label for="input-subject">Subject</label>
+                       <select name=""id="input-subject" style="width: 100%; padding: 10px; margin-top: 7px; background-color: gainsboro; border-radius: 10px; box-shadow: 3px 3px 3px black; ">
+                           <option>Let's Talk</option>
+                           <option>Let's Collaboration</option>
+                           <option>I am Hiring</option>
+                       </select>
+                   </div>
+   
+                   <div style="margin-bottom: 15px; text-align: left;">
+                       <label for="input-YourMassage">YourMassage</label>
+                       <textarea id="input-YourMassage" cols="30" rows="5" style="background-color:gainsboro; padding: 5px; margin-top: 7px; width: 100%; border-radius: 10px; box-shadow: 4px 4px 4px black;"></textarea>
+                   </div>
+   
+                   <div style="text-align: left;">
+                        <button type="button" onclick="submitForm()" style="background-color: red; border-radius: 10px; color: white; cursor: pointer; height: 30px; width: 100px; text-align: center; box-shadow: 3px 3px 3px black;">Submit</button>
+   
+               </form>
+                </div>
+        </center>
+    </div>
+</body>
+</html>
